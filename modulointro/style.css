@@ -1,0 +1,30 @@
+html, body, body * {
+    box-sizing: border-box;
+}
+h3{
+    color:blue;
+}
+
+a, #different{
+    color:red;
+}
+.padre a{
+    color:green;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color:black
+}
+
+.responsive-img img{
+    width:100%;
+    min-width:300px;
+    height: auto;
+}   /* in questo modo l immagine di classe img all interno di un div di classe respnsive-img non scenderà di dimensioni inferiori a min-height*/
+/* .padre>a{            //con > si prendono solo i figli del padre ( se ci sono altri elementi annidati non prenderanno le regole specificate
+    color:green;
+} 
+
+text-trasform:uppercase / lowercase;  ->trasfomr ain uper o lowercase
+*/

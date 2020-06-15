@@ -1,0 +1,6 @@
+elementi block e inline:
+block => prende tutta la riga all interno
+inline => modifica il contenuto che racchiude ma non crea un blocco indipendente(continua il flusso del contenuto modificandone le caratteristiche di stile)
+
+<div>,<section>,<p>,<h1> è block
+<spam>,<em>,<strong> ,<img> è inline (annidati dentro il tag del paragrafo ad esempio) 	
